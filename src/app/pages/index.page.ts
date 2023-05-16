@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component } from '@angular/core'
 
 @Component({
   selector: 'app-home',
@@ -41,9 +41,9 @@ import { Component } from '@angular/core';
   ],
 })
 export default class HomeComponent {
-  count = 0;
+  count = 0
 
   increment() {
-    this.count++;
+    this.count++
   }
 }
